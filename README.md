@@ -1,7 +1,7 @@
 # Python Band Name Generator 🎸🎶
-***Day(1/100) - Project 1 for #100daysofcode challenge***
+***Day(1/100) - Project 1 for my #100daysofcode with Python challenge***
 
-### Description:
+### <ins>Description:</ins>
 
 This is a band name generator made with Python. 
 The program asks the user to enter a city they grew
@@ -25,7 +25,7 @@ avoid any index errors as Python is zero indexed.
 The program will continue to do this until the user is happy
 with the generated name. 
 
-#### What I learnt from this project
+#### <ins>What I learnt from this project:</ins>
 - Reading in txt files 📃
 - using the random package to generate random integers 🔢
 - using the time package for the time.sleep() method ⏰
