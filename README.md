@@ -25,7 +25,7 @@ avoid any index errors as Python is zero indexed.
 The program will continue to do this until the user is happy
 with the generated name. 
 
-### What I learnt from this project
+#### What I learnt from this project
 - Reading in txt files 📃
 - using the random package to generate random integers 🔢
 - using the time package for the time.sleep() method ⏰
