@@ -1,5 +1,5 @@
 # Python Band Name Generator 🎸🎶
-***Day(1/100) - Project 1 for my #100daysofcode with Python challenge***
+***Day(1/100) - Project 1 for my #100daysofcode with Python 🐍 challenge***
 
 ### <ins>Description:</ins>
 
