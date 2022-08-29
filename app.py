@@ -11,21 +11,21 @@ All talented musicians need a great name for their band.
 Lets get you one.....''')
 
     # step 2 - ask user for the city they grew up in 
-    city = input('Can you give me the name of a city you grew up in? ').strip().lower()
+    city = input('\n\nCan you give me the name of a city you grew up in?\n').strip().lower()
     time.sleep(1)
     print('Okay, got it!\n')
 
     # step 3 - ask user for a pets name
-    pet_name = input('Can you give me the name of a pet that either you, a friend or a family member owned? ').strip().lower()
-    print('Okay, got it!')
+    pet_name = input('\nCan you give me the name of a pet that either you, a friend or a family member owned?\n').strip().lower()
+    print('\nOkay, got it!')
 
     # step 4 - generate name and ask if they are happy 
     print('\n\nI am thinking of a name for your band......')
-    time.sleep(3)
-    print('Drum roll please.....')
+    time.sleep(2)
+    print('\nDrum roll please.....')
     time.sleep(1)
-    print(f'The name for your band is {city}-{pet_name}')
-    user_input = input('Are you happy with my suggestion? Enter N for a new name or Y to exit ').strip().lower() 
+    print(f'\n\nThe name for your band is {city}-{pet_name}')
+    user_input = input('\nAre you happy with my suggestion? Enter N for a new name or Y to exit\n').strip().lower() 
     # if yes exit prorgam
 
     # random words gathered from https://randomwordgenerator.com/ and stored in text file
@@ -38,10 +38,10 @@ Lets get you one.....''')
     while user_input != 'y':
         # if no generate random name from words in text file
         print('\nHmmm sorry about that, let me think of a new name.....')
-        print('Generating a new name for your band now....')
+        print('Generating a new name for your band now....\n\n')
         time.sleep(3)
-        print(f'{rand_list[random.randint(0,len(rand_list)-1)]}-{rand_list[random.randint(0,len(rand_list)-1)]}')
-        user_input = input('Are you happy with my suggestion? Enter N for a new name or Y to exit ').strip().lower()
+        print(f'Your new band name is: {rand_list[random.randint(0,len(rand_list)-1)]}-{rand_list[random.randint(0,len(rand_list)-1)]}')
+        user_input = input('\nAre you happy with my suggestion? Enter N for a new name or Y to exit \n').strip().lower()
 
 
 
