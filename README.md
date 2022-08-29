@@ -1,6 +1,8 @@
 # Python Band Name Generator 🎸🎶
 ***Day(1/100) - Project 1 for my #100daysofcode with Python 🐍 challenge***
 
+View and run this project on replit.com -> https://replit.com/@PythonWrangler/bandnamegenerator?v=1
+
 ### <ins>Description:</ins>
 
 This is a band name generator made with Python. 
